@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".BookDetailActivity">
+
+    <data>
+        <variable
+            name="book"
+            type="com.example.booklist.model.Book" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/titleView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{book.title}"
+            android:textSize="30sp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <!-- Author -->
+        <TextView
+            android:id="@+id/authorView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{book.author}"
+            android:textSize="22sp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@id/titleView"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <!-- Summary -->
+        <TextView
+            android:id="@+id/summaryView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{book.summary}"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@id/authorView"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <!-- Page Count -->
+        <TextView
+            android:id="@+id/pageCountView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='@{"Page Count: " + String.valueOf(book.pageCount)}'
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@id/summaryView"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <!-- Genre -->
+        <TextView
+            android:id="@+id/genreView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='@{"Genre: " + book.genre}'
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@id/pageCountView"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <!-- Rating Bar -->
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:numStars="5"
+            android:rating="4.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/genreView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

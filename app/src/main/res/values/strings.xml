@@ -1,0 +1,171 @@
+<resources>
+
+    <string name="app_name">BookListApp</string>
+
+    <string-array name="book_title_array">
+        <item>The Great Adventure</item>
+        <item>Mystery of the Lost Island</item>
+        <item>The Future of Technology</item>
+        <item>The Art of War</item>
+        <item>Secrets of the Universe</item>
+        <item>Journey to the Unknown</item>
+        <item>The Last Kingdom</item>
+        <item>The Rise of Machines</item>
+        <item>Beyond the Horizon</item>
+        <item>Whispers in the Dark</item>
+        <item>The Hidden City</item>
+        <item>Shadows of the Past</item>
+        <item>The Forgotten Legend</item>
+        <item>Dreams of Tomorrow</item>
+        <item>The Eternal Quest</item>
+        <item>The Winds of Change</item>
+        <item>Under the Midnight Sun</item>
+        <item>The Edge of Reality</item>
+        <item>Voices of the Forgotten</item>
+        <item>The Light of a Distant Star</item>
+        <item>Realm of the Ancient Kings</item>
+        <item>Echoes of the Abyss</item>
+        <item>The Secret of the Sapphire</item>
+        <item>Guardians of the Galaxy</item>
+        <item>The Hidden Prophecy</item>
+        <item>Legacy of the Lost Empire</item>
+        <item>Chronicles of the Dragon</item>
+        <item>The Fall of the Phoenix</item>
+        <item>Rise of the Phoenix</item>
+        <item>The Secret Path</item>
+    </string-array>
+
+    <string-array name="author_array">
+        <item>John Smith</item>
+        <item>Sarah Brown</item>
+        <item>Emily Davis</item>
+        <item>Sun Tzu</item>
+        <item>Albert Newton</item>
+        <item>Michael Johnson</item>
+        <item>Rebecca Clarke</item>
+        <item>James Harris</item>
+        <item>Anna Lee</item>
+        <item>David Thompson</item>
+        <item>Christopher Hill</item>
+        <item>Laura Parker</item>
+        <item>Daniel Miller</item>
+        <item>Olivia White</item>
+        <item>Elizabeth King</item>
+        <item>Benjamin Walker</item>
+        <item>Victoria Holmes</item>
+        <item>Henry Moore</item>
+        <item>Jessica Turner</item>
+        <item>William Carter</item>
+        <item>Margaret Evans</item>
+        <item>Thomas Phillips</item>
+        <item>Angela Roberts</item>
+        <item>Steven Adams</item>
+        <item>Katherine Hughes</item>
+        <item>Arthur Nelson</item>
+        <item>Julia Russell</item>
+        <item>Samuel Peterson</item>
+        <item>Alice Cooper</item>
+        <item>George Knight</item>
+    </string-array>
+
+    <string-array name="page_count_array">
+        <item>320</item>
+        <item>280</item>
+        <item>450</item>
+        <item>120</item>
+        <item>540</item>
+        <item>300</item>
+        <item>480</item>
+        <item>410</item>
+        <item>350</item>
+        <item>260</item>
+        <item>420</item>
+        <item>390</item>
+        <item>510</item>
+        <item>370</item>
+        <item>490</item>
+        <item>610</item>
+        <item>470</item>
+        <item>340</item>
+        <item>290</item>
+        <item>580</item>
+        <item>620</item>
+        <item>430</item>
+        <item>550</item>
+        <item>610</item>
+        <item>360</item>
+        <item>530</item>
+        <item>590</item>
+        <item>450</item>
+        <item>400</item>
+        <item>390</item>
+    </string-array>
+
+    <string-array name="genre_array">
+        <item>Adventure</item>
+        <item>Mystery</item>
+        <item>Science Fiction</item>
+        <item>Strategy</item>
+        <item>Astronomy</item>
+        <item>Fantasy</item>
+        <item>Historical Fiction</item>
+        <item>Thriller</item>
+        <item>Drama</item>
+        <item>Horror</item>
+        <item>Crime</item>
+        <item>Romance</item>
+        <item>Mythology</item>
+        <item>Philosophy</item>
+        <item>Action</item>
+        <item>Political Fiction</item>
+        <item>Psychology</item>
+        <item>Self-Help</item>
+        <item>Biography</item>
+        <item>Satire</item>
+        <item>Cyberpunk</item>
+        <item>Historical Non-fiction</item>
+        <item>Western</item>
+        <item>Post-apocalyptic</item>
+        <item>Dystopian</item>
+        <item>Adventure Thriller</item>
+        <item>Time Travel</item>
+        <item>Epic Fantasy</item>
+        <item>Steampunk</item>
+        <item>Alternate History</item>
+    </string-array>
+
+    <string-array name="summary_array">
+        <item>A thrilling adventure through uncharted lands, filled with unexpected twists and heroic deeds.</item>
+        <item>A detective uncovers the secrets of a forgotten island where time stands still and danger lurks.</item>
+        <item>Explore the potential of modern technology and its implications for the future of humanity.</item>
+        <item>The classic text on military strategy, detailing tactics and philosophy for warriors.</item>
+        <item>A deep dive into the mysteries of the cosmos, unraveling the secrets of black holes and distant galaxies.</item>
+        <item>A brave explorer sets out on a journey to find the unknown lands beyond the horizon.</item>
+        <item>A kingdom on the brink of destruction must find a way to unite and fight for survival.</item>
+        <item>As technology advances, the rise of machines threatens the very existence of humankind.</item>
+        <item>Beyond the horizon lies a world untouched by time, where mysteries and wonders abound.</item>
+        <item>In the dead of night, whispers in the dark reveal secrets long forgotten.</item>
+        <item>In the heart of a bustling metropolis lies a hidden city where only the brave dare to enter.</item>
+        <item>Shadows of the past haunt a group of friends as they unravel the truth behind an ancient curse.</item>
+        <item>The forgotten legend of an ancient warrior is brought back to life in this epic tale.</item>
+        <item>Dreams of tomorrow become reality in this futuristic adventure of hope and courage.</item>
+        <item>An eternal quest for truth and knowledge leads a group of adventurers to the farthest reaches of the earth.</item>
+        <item>A political thriller where the fate of a nation rests on the actions of one brave individual.</item>
+        <item>Under the midnight sun, two lives intertwine in a tale of mystery, romance, and fate.</item>
+        <item>The edge of reality blurs as a young scientist discovers a hidden world within our own.</item>
+        <item>Voices of the forgotten echo through time, revealing a tale of love, loss, and redemption.</item>
+        <item>The light of a distant star guides a spaceship through the darkest reaches of the galaxy.</item>
+        <item>A realm ruled by ancient kings is on the brink of collapse as a new power rises from the ashes.</item>
+        <item>Echoes of the abyss reveal the horrors hidden beneath the surface of a seemingly peaceful world.</item>
+        <item>The secret of the sapphire is sought by many, but only the pure of heart will uncover its truth.</item>
+        <item>A group of unlikely heroes band together to protect the galaxy from a malevolent force.</item>
+        <item>The hidden prophecy reveals the destiny of a young hero who must face the ultimate challenge.</item>
+        <item>The legacy of the lost empire holds the key to the future of a war-torn land.</item>
+        <item>Chronicles of the Dragon tell the tale of a great beast that once ruled the skies and those who seek its power.</item>
+        <item>The Phoenix falls, but from its ashes rises a new force to challenge the gods.</item>
+        <item>Rise of the Phoenix is a story of hope, rebirth, and the strength to fight against overwhelming odds.</item>
+        <item>A young adventurer stumbles upon a secret path that leads to a hidden world filled with magic and wonder.</item>
+    </string-array>
+
+
+</resources>
